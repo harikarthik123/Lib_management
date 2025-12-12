@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 import './App.css'
 
-const API_URL = 'http://localhost:3000'
+const API_URL = 'https://lib-management-u5jg.onrender.com'
 
 function App() {
   const [books, setBooks] = useState([])
